@@ -1,0 +1,8 @@
+div.time {
+  margin-top: 30px;
+  width: 100%;
+  color: #ffc040;
+  font-size: 4em;
+  display: flex;
+  justify-content: space-around;
+}

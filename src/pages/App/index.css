@@ -1,0 +1,40 @@
+section#interface {
+  margin: 170px auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 30px; /*Se a largura for muito pequena ele deixa um espaço na esquerda e na direita*/
+}
+section#interface article {
+  margin-top: 30px;
+}
+section#interface article header {
+  padding: 20px;
+  display: flex; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
+  align-items: center; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
+  justify-content: center; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
+}
+
+section#nterface article header .title {
+  display: flex;
+  flex-direction: column; /*tudo que estiver dentro do user info vai alinhar na vertical "coluna"*/
+}
+section#interface article header .title h1 {
+  /* background-color: aquamarine;*/
+  margin-top: 10%;
+  font-size: 3.2em;
+  color: #ffffff;
+  font-weight: 116;
+}
+section#interface article header .title p {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+section#interface article footer {
+  display: flex;
+  /* background-color: aqua;*/
+  align-items: center;
+}
+embed {
+  visibility: hidden;
+  position: absolute;
+}
