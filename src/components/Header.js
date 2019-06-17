@@ -17,9 +17,9 @@ export default function Header() {
             <strong>Fragata</strong> corp.
           </p>
         </div>
-        <a id="saibamais" onClick={OpenOrCloseModal}>
-          <p>Saiba mais</p>
-        </a>
+        <p id="saibamais" onClick={OpenOrCloseModal}>
+          Saiba mais
+        </p>
       </div>
 
       <Modal open={modal} onClose={OpenOrCloseModal} center>
