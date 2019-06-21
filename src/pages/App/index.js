@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
-import Contador from "../../components/Contador";
-import "./index.css";
-import Header from "../../components/Header";
-import audio from "../../assets/audio/fragatasound.wav";
+import React, { useEffect } from 'react';
+import Contador from '../../components/Contador';
+import './index.css';
+import Header from '../../components/Header';
+import audio from '../../assets/audio/fragatasound.wav';
+
 function App() {
   function play() {
-    const audio = document.querySelector("audio");
+    const audio = document.querySelector('audio');
     audio.play();
   }
   useEffect(() => {
