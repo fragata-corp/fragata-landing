@@ -17,7 +17,7 @@ export default function Header() {
             {' '}
             <strong>Fragata</strong>
             {' '}
-corp.
+Corp.
           </p>
         </div>
         <p style={{ cursor: 'pointer' }} onClick={OpenOrCloseModal}>
