@@ -1,40 +1,33 @@
-section#interface {
-  margin: 170px auto;
-  width: 100%;
-  max-width: 600px;
-  padding: 0 30px; /*Se a largura for muito pequena ele deixa um espaço na esquerda e na direita*/
+div#container {
+    display: grid;
+    width: 100%;
+    height: 100%;
 }
-section#interface article {
-  margin-top: 30px;
-}
-section#interface article header {
-  padding: 20px;
-  display: flex; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
-  align-items: center; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
-  justify-content: center; /*Faz o mesmo comportamento do header joga um item para um lado e o outro pro outro lado */
+div#container main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-section#nterface article header .title {
-  display: flex;
-  flex-direction: column; /*tudo que estiver dentro do user info vai alinhar na vertical "coluna"*/
+div#container main h1 {
+    font-size: 6em;
+    color: #ffffff;
+    font-weight: 116;
 }
-section#interface article header .title h1 {
-  /* background-color: aquamarine;*/
-  margin-top: 10%;
-  font-size: 3.2em;
-  color: #ffffff;
-  font-weight: 116;
+div#container main p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.7em;
+    color: #ffffff;
 }
-section#interface article header .title p {
-  font-size: 0.9em;
-  color: #ffffff;
-}
-section#interface article footer {
-  display: flex;
-  /* background-color: aqua;*/
-  align-items: center;
-}
-embed {
-  visibility: hidden;
-  position: absolute;
+
+div#container footer {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }

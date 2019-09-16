@@ -12,25 +12,20 @@ function App() {
   useEffect(() => {
     play();
   });
-
   return (
-    <>
+    <div id="container">
       <Header />
+
       <audio src={audio} />
-      <section id="interface">
-        <article>
-          <header>
-            <section className="title">
-              <h1>Em breve</h1>
-              <p>Nossa fragata entra em alto mar</p>
-            </section>
-          </header>
-          <footer>
-            <Contador />
-          </footer>
-        </article>
-      </section>
-    </>
+      <main>
+        <h1>Em breve</h1>
+        <p>Nossa fragata entra em alto mar</p>
+      </main>
+
+      <footer>
+        <Contador />
+      </footer>
+    </div>
   );
 }
 export default App;
